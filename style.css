@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #36536B;
+}
+
+.our {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+body {
+    background-color: #EDF3F8;
+}
+
+.btn {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 100%;
+    letter-spacing: -0.12px;
+    color: white;
+    padding: 15px 20px;
+    box-shadow: 10px 10px 25px -10px #36536B40;
+    border-radius: 24px;
+    background-color: #BA4270;
+    border: none;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero h1 {
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 72px;
+    letter-spacing: -0.55px;
+    color: #36536B;
+}
+
+.hero-text h2 {
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.37px;
+    color: #36536B;
+}
+
+.hero-text p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    color: #6C8294;
+}
+
+.hero1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text p {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: -0.14px;
+    text-align: center;
+    color: #36536B;
+}
+.ota{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+footer{
+    background-color: black;
+}
+.menu-btn{
+    background-color: inherit;
+    font-size: 24px;
+    color: #1b2c38;
+    border: none;
+    display: none;
+}
+@media(max-width:768px){
+    .hero {
+        flex-direction: column-reverse;
+        align-items: center;
+    }  
+    .hero img{
+        width: 70%;
+    }
+    .hero h1{
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .hero1{
+        flex-direction: column;
+    }
+    .ota{
+        flex-wrap: wrap;
+        gap: 15px;
+        justify-content: center;
+    }
+    nav{
+        display: none;
+    }
+    .menu-btn{
+        display: block;
+    }
+    header{
+        padding: 30px;
+    }
+        
+}
